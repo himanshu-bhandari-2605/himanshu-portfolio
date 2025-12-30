@@ -10,14 +10,7 @@ export default function Home() {
             Business Management | Strategy | COO Office Support | MBA (Finance)
           </p>
           <p className="text-sm text-gray-500 mt-2">
-            Bhandup, Mumbai · 
-            <a
-              href="mailto:himanshu.bhandari265@gmail.com"
-              className="underline ml-1"
-            >
-              himanshu.bhandari265@gmail.com
-            </a>{" "}
-            · 9743932230 ·{" "}
+            Bhandup, Mumbai · himanshu.bhandari265@gmail.com · 9743932230 ·{" "}
             <a
               href="https://www.linkedin.com/in/himanshu-bhandari-2090491ab"
               target="_blank"
@@ -28,7 +21,7 @@ export default function Home() {
           </p>
         </header>
 
-        {/* Summary */}
+        {/* Professional Summary */}
         <section className="mb-10">
           <h2 className="text-xl font-semibold mb-3">Professional Summary</h2>
           <p>
@@ -56,29 +49,29 @@ export default function Home() {
             <ul className="list-disc list-inside mt-3 space-y-2">
               <li>
                 Act as a business management partner supporting senior leadership
-                through executive ad-hoc requests, project tracking, and strategic
+                through executive requests, project tracking, and strategic
                 business analysis.
               </li>
               <li>
-                Develop and maintain advanced Excel dashboards (Pivot Tables,
-                Power Query, XLOOKUP) to track KPIs, revenue trends, and operational
-                performance, improving reporting turnaround by ~25%.
+                Develop advanced Excel dashboards (Pivot Tables, Power Query,
+                XLOOKUP) to track KPIs and operational performance, improving
+                reporting turnaround time by ~25%.
               </li>
               <li>
                 Prepare management-ready MBR and QBR decks with strong narrative,
-                design, and data visualization.
+                wireframing, and data visualization.
               </li>
               <li>
-                Project manage multiple cross-functional workstreams, tracking
-                milestones, risks, dependencies, and delivery timelines.
+                Project manage cross-functional workstreams, tracking milestones,
+                risks, dependencies, and delivery timelines.
               </li>
               <li>
                 Identify business and operational risks, maintain risk and issue
-                logs, and drive mitigation through defined controls and escalation.
+                logs, and support mitigating controls and escalation.
               </li>
               <li>
                 Support audit, regulatory, and compliance deliverables including
-                evidence collection and RCSA support.
+                RCSA documentation and evidence tracking.
               </li>
               <li>
                 Coordinate governance routines, operating rhythm reviews, and
@@ -104,70 +97,3 @@ export default function Home() {
               <li>
                 Conducted market sizing, feasibility studies, and competitive
                 benchmarking.
-              </li>
-              <li>
-                Coordinated with supply chain and operations teams to improve SLA
-                adherence and delivery timelines.
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        {/* Internships */}
-        <section className="mb-10">
-          <h2 className="text-xl font-semibold mb-4">Internships</h2>
-
-          <p className="font-semibold">
-            New Product Engineering Development Intern — Autoliv India, Bangalore
-          </p>
-          <p className="text-sm text-gray-500 mb-2">
-            Jan 2023 – Nov 2023
-          </p>
-
-          <p className="font-semibold mt-4">
-            R&D Intern — Nandan GSE, Navi Mumbai
-          </p>
-          <p className="text-sm text-gray-500">
-            May 2022 – Jun 2022
-          </p>
-        </section>
-
-        {/* Skills */}
-        <section className="mb-10">
-          <h2 className="text-xl font-semibold mb-4">Key Skills</h2>
-          <ul className="list-disc list-inside space-y-1">
-            <li>
-              Executive Business Support, COO Office Support, Business Governance,
-              Risk & Issue Management, RCSA Support, Audit Readiness
-            </li>
-            <li>
-              KPI Dashboards, Financial Tracking, Budget & Expense Governance,
-              Headcount & Capacity Tracking
-            </li>
-            <li>
-              Advanced Excel (Pivot Tables, Power Query, XLOOKUP, Dashboards),
-              PowerPoint (Design & Storyboarding)
-            </li>
-            <li>
-              SharePoint, JIRA (basic), Confluence (basic)
-            </li>
-          </ul>
-        </section>
-
-        {/* Education */}
-        <section>
-          <h2 className="text-xl font-semibold mb-3">Education</h2>
-          <p>
-            <strong>MBA (Finance)</strong> — Golden Gate University, San Francisco
-            (Expected 2026)
-          </p>
-          <p>
-            <strong>B.Tech</strong> — Manipal Institute of Technology (2023),
-            CGPA: 7.69
-          </p>
-        </section>
-
-      </div>
-    </main>
-  );
-}
