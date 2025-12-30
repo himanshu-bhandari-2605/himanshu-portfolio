@@ -97,3 +97,70 @@ export default function Home() {
               <li>
                 Conducted market sizing, feasibility studies, and competitive
                 benchmarking.
+              </li>
+              <li>
+                Coordinated with supply chain and operations teams to improve SLA
+                adherence and delivery timelines.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Internships */}
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold mb-4">Internships</h2>
+
+          <p className="font-semibold">
+            New Product Engineering Development Intern — Autoliv India, Bangalore
+          </p>
+          <p className="text-sm text-gray-500 mb-4">
+            Jan 2023 – Nov 2023
+          </p>
+
+          <p className="font-semibold">
+            R&D Intern — Nandan GSE, Navi Mumbai
+          </p>
+          <p className="text-sm text-gray-500">
+            May 2022 – Jun 2022
+          </p>
+        </section>
+
+        {/* Skills */}
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold mb-4">Key Skills</h2>
+          <ul className="list-disc list-inside space-y-1">
+            <li>
+              Executive Business Support, COO Office Support, Business Governance,
+              Risk & Issue Management, RCSA Support, Audit Readiness
+            </li>
+            <li>
+              KPI Dashboards, Financial Tracking, Budget & Expense Governance,
+              Headcount & Capacity Tracking
+            </li>
+            <li>
+              Advanced Excel (Pivot Tables, Power Query, XLOOKUP, Dashboards),
+              PowerPoint (Design & Storyboarding)
+            </li>
+            <li>
+              SharePoint, JIRA (basic), Confluence (basic)
+            </li>
+          </ul>
+        </section>
+
+        {/* Education */}
+        <section>
+          <h2 className="text-xl font-semibold mb-3">Education</h2>
+          <p>
+            <strong>MBA (Finance)</strong> — Golden Gate University, San Francisco
+            (Expected 2026)
+          </p>
+          <p>
+            <strong>B.Tech</strong> — Manipal Institute of Technology (2023),
+            CGPA: 7.69
+          </p>
+        </section>
+
+      </div>
+    </main>
+  );
+}
