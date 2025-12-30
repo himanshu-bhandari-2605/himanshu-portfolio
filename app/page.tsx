@@ -37,8 +37,12 @@ export default function Home() {
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-2">Education</h2>
-          <p><strong>MBA – Finance</strong>, Golden Gate University (Expected 2026)</p>
-          <p><strong>B.Tech – Automobile Engineering</strong>, Manipal Institute of Technology</p>
+          <p>
+            <strong>MBA – Finance</strong>, Golden Gate University (Expected 2026)
+          </p>
+          <p>
+            <strong>B.Tech – Automobile Engineering</strong>, Manipal Institute of Technology
+          </p>
         </section>
 
         <section className="mb-8">
@@ -57,3 +61,11 @@ export default function Home() {
 
         <section>
           <h2 className="text-xl font-semibold mb-2">Contact</h2>
+          <p>Email: your.email@example.com</p>
+          <p>LinkedIn: linkedin.com/in/your-profile</p>
+        </section>
+
+      </div>
+    </main>
+  );
+}
